@@ -1,0 +1,20 @@
+# Maintainer: Bruno Goncalves <bigbruno@gmail.com>
+
+pkgname=biglinux-base-icons
+pkgver=$(date +%y.%m.%d)
+pkgrel=$(date +%H%M)
+arch=('any')
+license=('GPL')
+url="https://github.com/biglinux/biglinux-base-icons"
+pkgdesc="Icons and fixes to themes"
+source=("git+https://github.com/biglinux/biglinux-base-icons.git")
+md5sums=(SKIP)
+
+
+package() {
+    cp -r "${srcdir}/biglinux-base-icons/biglinux-base-icons/usr/" "${pkgdir}/"
+    mv "${pkgdir}/usr/share/icons/breeze/actions/22/document-print.svg" "${pkgdir}/usr/share/icons/breeze/actions/22/document-print-alt.svg"
+    mv "${pkgdir}/usr/share/icons/breeze/apps/48/application-x-clementine.svg" "${pkgdir}/usr/share/icons/breeze/actions/22/document-print-alt.svg"
+    mv "${pkgdir}/usr/share/icons/breeze/apps/48/smplayer.svg" "${pkgdir}/usr/share/icons/breeze/actions/22/document-print-alt.svg"
+}
+
