@@ -1,51 +1,49 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    width="24"
    height="24"
-   viewBox="0 0 6.35 6.3499999"
+   viewBox="0 0 24 24"
+   fill="none"
    version="1.1"
-   id="svg5"
-   xml:space="preserve"
-   sodipodi:docname="rustdesk.svg"
+   id="svg154"
+   sodipodi:docname="app.svg"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   inkscape:export-filename="rustdesk.pdf"
-   inkscape:export-xdpi="96"
-   inkscape:export-ydpi="96"
+   xml:space="preserve"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
-     id="namedview7"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"><sodipodi:namedview
+     id="namedview156"
      pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="mm"
-     showgrid="false"
-     inkscape:zoom="13.440222"
-     inkscape:cx="-16.182768"
-     inkscape:cy="9.5980557"
-     inkscape:window-width="2560"
-     inkscape:window-height="998"
-     inkscape:window-x="1680"
+     bordercolor="#eeeeee"
+     borderopacity="0"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="false"
+     inkscape:deskcolor="#888888"
+     showgrid="true"
+     inkscape:zoom="32.000001"
+     inkscape:cx="1.3125"
+     inkscape:cy="10.296875"
+     inkscape:window-width="952"
+     inkscape:window-height="1044"
+     inkscape:window-x="960"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg5" /><defs
-     id="defs2"><linearGradient
+     inkscape:current-layer="svg154"><inkscape:grid
+       type="xygrid"
+       id="grid356" /></sodipodi:namedview><defs
+     id="defs152"><linearGradient
        inkscape:collect="always"
-       id="linearGradient23806"><stop
-         style="stop-color:#f2f2f2;stop-opacity:1"
+       id="linearGradient650"><stop
+         style="stop-color:#f2f2f2;stop-opacity:1;"
          offset="0"
-         id="stop23802" /><stop
-         style="stop-color:#ffffff;stop-opacity:1"
+         id="stop646" /><stop
+         style="stop-color:#f9f9f9;stop-opacity:1"
          offset="1"
-         id="stop23804" /></linearGradient><style
+         id="stop648" /></linearGradient><style
        type="text/css"
        id="current-color-scheme">
       .ColorScheme-Text {
@@ -405,357 +403,9 @@
       .ColorScheme-ButtonFocus{
         color:#3daee9;
       }
-      </style><linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient23806"
-       id="linearGradient24103"
-       gradientUnits="userSpaceOnUse"
-       x1="221.27568"
-       y1="-303.44745"
-       x2="214.69281"
-       y2="438.2211" /><linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient23806"
-       id="linearGradient24105"
-       gradientUnits="userSpaceOnUse"
-       x1="221.27568"
-       y1="-303.44745"
-       x2="214.69281"
-       y2="438.2211" /><linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient23806"
-       id="linearGradient24107"
-       gradientUnits="userSpaceOnUse"
-       x1="221.27568"
-       y1="-303.44745"
-       x2="214.69281"
-       y2="438.2211" /><style
-       type="text/css"
-       id="current-color-scheme-79">
-      .ColorScheme-Text {
-        color:#31363b;
-      }
-      .ColorScheme-Background {
-        color:#eff0f1;
-      }
-      .ColorScheme-Highlight {
-        color:#3daee9;
-      }
-      .ColorScheme-ViewText {
-        color:#31363b;
-      }
-      .ColorScheme-ViewBackground {
-        color:#fcfcfc;
-      }
-      .ColorScheme-ViewHover {
-        color:#93cee9;
-      }
-      .ColorScheme-ViewFocus{
-        color:#3daee9;
-      }
-      .ColorScheme-ButtonText {
-        color:#31363b;
-      }
-      .ColorScheme-ButtonBackground {
-        color:#eff0f1;
-      }
-      .ColorScheme-ButtonHover {
-        color:#93cee9;
-      }
-      .ColorScheme-ButtonFocus{
-        color:#3daee9;
-      }
       </style><style
        type="text/css"
-       id="current-color-scheme-9-2">
-      .ColorScheme-Text {
-        color:#31363b;
-      }
-      .ColorScheme-Background {
-        color:#eff0f1;
-      }
-      .ColorScheme-Highlight {
-        color:#3daee9;
-      }
-      .ColorScheme-ViewText {
-        color:#31363b;
-      }
-      .ColorScheme-ViewBackground {
-        color:#fcfcfc;
-      }
-      .ColorScheme-ViewHover {
-        color:#93cee9;
-      }
-      .ColorScheme-ViewFocus{
-        color:#3daee9;
-      }
-      .ColorScheme-ButtonText {
-        color:#31363b;
-      }
-      .ColorScheme-ButtonBackground {
-        color:#eff0f1;
-      }
-      .ColorScheme-ButtonHover {
-        color:#93cee9;
-      }
-      .ColorScheme-ButtonFocus{
-        color:#3daee9;
-      }
-      </style><style
-       type="text/css"
-       id="current-color-scheme-2-0">
-      .ColorScheme-Text {
-        color:#31363b;
-      }
-      .ColorScheme-Background {
-        color:#eff0f1;
-      }
-      .ColorScheme-Highlight {
-        color:#3daee9;
-      }
-      .ColorScheme-ViewText {
-        color:#31363b;
-      }
-      .ColorScheme-ViewBackground {
-        color:#fcfcfc;
-      }
-      .ColorScheme-ViewHover {
-        color:#93cee9;
-      }
-      .ColorScheme-ViewFocus{
-        color:#3daee9;
-      }
-      .ColorScheme-ButtonText {
-        color:#31363b;
-      }
-      .ColorScheme-ButtonBackground {
-        color:#eff0f1;
-      }
-      .ColorScheme-ButtonHover {
-        color:#93cee9;
-      }
-      .ColorScheme-ButtonFocus{
-        color:#3daee9;
-      }
-      </style><style
-       type="text/css"
-       id="current-color-scheme-3-2">
-      .ColorScheme-Text {
-        color:#31363b;
-      }
-      .ColorScheme-Background {
-        color:#eff0f1;
-      }
-      .ColorScheme-Highlight {
-        color:#3daee9;
-      }
-      .ColorScheme-ViewText {
-        color:#31363b;
-      }
-      .ColorScheme-ViewBackground {
-        color:#fcfcfc;
-      }
-      .ColorScheme-ViewHover {
-        color:#93cee9;
-      }
-      .ColorScheme-ViewFocus{
-        color:#3daee9;
-      }
-      .ColorScheme-ButtonText {
-        color:#31363b;
-      }
-      .ColorScheme-ButtonBackground {
-        color:#eff0f1;
-      }
-      .ColorScheme-ButtonHover {
-        color:#93cee9;
-      }
-      .ColorScheme-ButtonFocus{
-        color:#3daee9;
-      }
-      </style><style
-       type="text/css"
-       id="current-color-scheme-97-3">
-      .ColorScheme-Text {
-        color:#31363b;
-      }
-      .ColorScheme-Background {
-        color:#eff0f1;
-      }
-      .ColorScheme-Highlight {
-        color:#3daee9;
-      }
-      .ColorScheme-ViewText {
-        color:#31363b;
-      }
-      .ColorScheme-ViewBackground {
-        color:#fcfcfc;
-      }
-      .ColorScheme-ViewHover {
-        color:#93cee9;
-      }
-      .ColorScheme-ViewFocus{
-        color:#3daee9;
-      }
-      .ColorScheme-ButtonText {
-        color:#31363b;
-      }
-      .ColorScheme-ButtonBackground {
-        color:#eff0f1;
-      }
-      .ColorScheme-ButtonHover {
-        color:#93cee9;
-      }
-      .ColorScheme-ButtonFocus{
-        color:#3daee9;
-      }
-      </style><style
-       type="text/css"
-       id="current-color-scheme-7-7">
-      .ColorScheme-Text {
-        color:#31363b;
-      }
-      .ColorScheme-Background {
-        color:#eff0f1;
-      }
-      .ColorScheme-Highlight {
-        color:#3daee9;
-      }
-      .ColorScheme-ViewText {
-        color:#31363b;
-      }
-      .ColorScheme-ViewBackground {
-        color:#fcfcfc;
-      }
-      .ColorScheme-ViewHover {
-        color:#93cee9;
-      }
-      .ColorScheme-ViewFocus{
-        color:#3daee9;
-      }
-      .ColorScheme-ButtonText {
-        color:#31363b;
-      }
-      .ColorScheme-ButtonBackground {
-        color:#eff0f1;
-      }
-      .ColorScheme-ButtonHover {
-        color:#93cee9;
-      }
-      .ColorScheme-ButtonFocus{
-        color:#3daee9;
-      }
-      </style><style
-       type="text/css"
-       id="current-color-scheme-9-0-5">
-      .ColorScheme-Text {
-        color:#31363b;
-      }
-      .ColorScheme-Background {
-        color:#eff0f1;
-      }
-      .ColorScheme-Highlight {
-        color:#3daee9;
-      }
-      .ColorScheme-ViewText {
-        color:#31363b;
-      }
-      .ColorScheme-ViewBackground {
-        color:#fcfcfc;
-      }
-      .ColorScheme-ViewHover {
-        color:#93cee9;
-      }
-      .ColorScheme-ViewFocus{
-        color:#3daee9;
-      }
-      .ColorScheme-ButtonText {
-        color:#31363b;
-      }
-      .ColorScheme-ButtonBackground {
-        color:#eff0f1;
-      }
-      .ColorScheme-ButtonHover {
-        color:#93cee9;
-      }
-      .ColorScheme-ButtonFocus{
-        color:#3daee9;
-      }
-      </style><style
-       type="text/css"
-       id="current-color-scheme-2-9-9">
-      .ColorScheme-Text {
-        color:#31363b;
-      }
-      .ColorScheme-Background {
-        color:#eff0f1;
-      }
-      .ColorScheme-Highlight {
-        color:#3daee9;
-      }
-      .ColorScheme-ViewText {
-        color:#31363b;
-      }
-      .ColorScheme-ViewBackground {
-        color:#fcfcfc;
-      }
-      .ColorScheme-ViewHover {
-        color:#93cee9;
-      }
-      .ColorScheme-ViewFocus{
-        color:#3daee9;
-      }
-      .ColorScheme-ButtonText {
-        color:#31363b;
-      }
-      .ColorScheme-ButtonBackground {
-        color:#eff0f1;
-      }
-      .ColorScheme-ButtonHover {
-        color:#93cee9;
-      }
-      .ColorScheme-ButtonFocus{
-        color:#3daee9;
-      }
-      </style><style
-       type="text/css"
-       id="current-color-scheme-3-3-2">
-      .ColorScheme-Text {
-        color:#31363b;
-      }
-      .ColorScheme-Background {
-        color:#eff0f1;
-      }
-      .ColorScheme-Highlight {
-        color:#3daee9;
-      }
-      .ColorScheme-ViewText {
-        color:#31363b;
-      }
-      .ColorScheme-ViewBackground {
-        color:#fcfcfc;
-      }
-      .ColorScheme-ViewHover {
-        color:#93cee9;
-      }
-      .ColorScheme-ViewFocus{
-        color:#3daee9;
-      }
-      .ColorScheme-ButtonText {
-        color:#31363b;
-      }
-      .ColorScheme-ButtonBackground {
-        color:#eff0f1;
-      }
-      .ColorScheme-ButtonHover {
-        color:#93cee9;
-      }
-      .ColorScheme-ButtonFocus{
-        color:#3daee9;
-      }
-      </style><style
-       type="text/css"
-       id="current-color-scheme-97-6-2">
+       id="current-color-scheme-6">
       .ColorScheme-Text {
         color:#31363b;
       }
@@ -790,46 +440,98 @@
         color:#3daee9;
       }
       </style><linearGradient
-       x1="221.27568"
-       y1="-303.44745"
-       x2="214.69281"
-       y2="438.2211"
+       x1="46.823792"
+       y1="52.925842"
+       x2="16.232769"
+       y2="10.101874"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.0369655,0,0,0.0369655,0.749964,0.749992)"
+       gradientTransform="matrix(2.651268,6.725442,-6.725442,2.651268,311.7899,-118.63594)"
        spreadMethod="pad"
-       id="linearGradient5046"><stop
-         style="stop-opacity:1;stop-color:#f2f2f2"
+       id="linearGradient782"><stop
+         style="stop-opacity:1;stop-color:#0066ff"
          offset="0"
-         id="stop5042" /><stop
-         style="stop-opacity:1;stop-color:#ffffff"
+         id="stop778" /><stop
+         style="stop-opacity:1;stop-color:#55ddff"
          offset="1"
-         id="stop5044" /></linearGradient><linearGradient
-       x1="14.596832"
-       y1="4.768527"
-       x2="17.173956"
-       y2="2.1914041"
+         id="stop780" /></linearGradient><linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient782"
+       id="linearGradient827"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(3.506932,0,0,3.506932,-47.527472,-3.871778)"
-       spreadMethod="pad"
-       id="linearGradient5064"><stop
-         style="stop-opacity:1;stop-color:#0075fe"
-         offset="0"
-         id="stop5060" /><stop
-         style="stop-opacity:1;stop-color:#00bde2"
-         offset="1"
-         id="stop5062" /></linearGradient></defs><g
-     id="g246"
-     style="fill:url(#linearGradient24107);fill-opacity:1"
-     transform="matrix(0.01304062,0,0,0.01304062,0.26457054,0.26458043)"><g
-       id="g252"
-       style="fill:url(#linearGradient24105);fill-opacity:1"><path
-         d="m 174.406,2.305 c 2.434,0.027 4.758,-0.285 6.973,-0.93 29.133,-1.906 58.258,-1.832 87.387,0.234 26.41,2.055 51.976,7.786 76.699,17.188 41.097,16.922 69.219,46.269 84.363,88.043 8.66,25.152 13.774,51.015 15.34,77.59 2.164,33.371 1.391,66.668 -2.324,99.89 -2.782,23.352 -8.824,45.805 -18.129,67.368 -17.258,37.382 -45.223,63.167 -83.899,77.355 -31.343,10.59 -63.57,16.164 -96.687,16.723 -37.246,1.937 -74.121,-0.848 -110.625,-8.36 C 66.312,422.438 24.867,381.477 9.164,314.52 2.496,284.375 -0.523,253.867 0.098,222.992 -0.645,190.16 2.84,157.793 10.559,125.891 27.02,63.285 66.762,24.488 129.785,9.508 144.469,5.914 159.344,3.516 174.406,2.305 Z"
-         style="fill:url(#linearGradient24103);fill-opacity:1;fill-rule:evenodd;stroke:none"
-         id="path260" /></g></g><g
-     id="g5050"
-     transform="matrix(0.35277777,0,0,0.35277776,3.7471528e-4,2.710469e-4)"><g
-       id="g5052"><g
-         id="g5058"><path
-           d="M 4.477,11.676 C 3.84,10.691 3.598,9.547 3.77,8.301 3.945,7.039 4.539,5.98 5.602,5.035 7.516,3.492 9.91,3.387 11.738,4.457 c 0.157,0.098 0.332,0.137 0.387,0.313 0.047,0.136 0.047,0.292 0,0.406 C 12.078,5.293 11.578,5.828 11.336,6.02 11.043,6.254 10.883,6.258 10.5,6.043 9.387,5.496 8.207,5.652 7.301,6.246 6.34,6.941 5.719,7.996 5.707,9.043 c 0,0.5 0.102,0.895 0.355,1.363 0.168,0.313 0.215,0.535 0.137,0.703 -0.047,0.11 -0.594,0.684 -0.781,0.825 C 5.129,12.148 5.098,12.16 4.934,12.098 4.727,12.02 4.66,11.957 4.477,11.676 Z m 1.406,1.422 C 5.836,12.973 5.859,12.805 5.945,12.66 c 0.258,-0.265 0.653,-0.785 0.957,-0.902 0.168,-0.063 0.297,-0.039 0.582,0.113 0.774,0.41 1.602,0.492 2.371,0.238 0.926,-0.308 1.872,-1.207 2.223,-2.125 C 12.402,9.152 12.344,8.285 11.91,7.445 11.742,7.117 11.719,6.969 11.809,6.828 11.898,6.68 12.32,6.234 12.57,6.02 c 0.266,-0.227 0.317,-0.247 0.543,-0.2 0.176,0.032 0.223,0.082 0.465,0.496 0.742,1.305 0.902,2.774 0.457,4.172 -0.515,1.551 -1.867,2.938 -3.371,3.469 -1.488,0.527 -3.156,0.332 -4.43,-0.512 -0.273,-0.183 -0.3,-0.207 -0.351,-0.347 z"
-           style="fill:url(#linearGradient5064);stroke:none"
-           id="path5066" /></g></g></g></svg>
+       gradientTransform="matrix(2.651268,6.725442,-6.725442,2.651268,311.7899,-118.63594)"
+       x1="46.823792"
+       y1="52.925842"
+       x2="16.232769"
+       y2="10.101874"
+       spreadMethod="pad" /><linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient782"
+       id="linearGradient562"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.651268,6.725442,-6.725442,2.651268,311.7899,-118.63594)"
+       x1="46.823792"
+       y1="52.925842"
+       x2="16.232769"
+       y2="10.101874"
+       spreadMethod="pad" /><linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient650"
+       id="linearGradient652"
+       x1="11.375"
+       y1="46.75"
+       x2="12.1875"
+       y2="-3.9374998"
+       gradientUnits="userSpaceOnUse" /><linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient650"
+       id="linearGradient1074"
+       gradientUnits="userSpaceOnUse"
+       x1="11.375"
+       y1="46.75"
+       x2="12.1875"
+       y2="-3.9374998" /></defs><g
+     id="g2267"
+     inkscape:label="Shape"
+     inkscape:highlight-color="#00dcff"
+     style="fill:url(#linearGradient652);fill-opacity:1"><path
+       d="M 50,5 C 9.0909092,5 5,25.454546 5,50 5,82.727274 17.272728,95 50,95 82.727274,95 95,82.727274 95,50 95,25.454546 90.909093,5 50,5 Z"
+       sketch:type="MSShapeGroup"
+       id="path6"
+       style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:url(#linearGradient1074);fill-opacity:1;stroke-width:4.56656;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       transform="matrix(0.24444444,0,0,0.24444444,-0.22222222,-0.22222222)"
+       sodipodi:nodetypes="sssss"
+       inkscape:label="Squircle" /></g><g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Guides"
+     sodipodi:insensitive="true"
+     style="display:none"><circle
+       style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:0.592829;stroke:#ff0000;stroke-width:0.0444444;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:markers stroke fill;stop-color:#000000;stop-opacity:1"
+       id="path1480"
+       cx="12"
+       cy="12"
+       r="8"
+       inkscape:label="Circle Guide" /><rect
+       style="font-variation-settings:normal;display:inline;opacity:1;fill:none;fill-opacity:0.592829;stroke:#ff0000;stroke-width:0.05;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000;stop-opacity:1"
+       id="rect1482"
+       width="14"
+       height="14"
+       x="5"
+       y="5"
+       inkscape:label="Square Guide" /></g><g
+     id="g584"
+     transform="translate(26.061343,1.6875978)"><g
+       id="g768"
+       transform="matrix(0.06063366,0,0,0.06063366,-25.062444,-0.68743615)"><g
+         id="g770"><g
+           id="g776"><path
+             d="M 302.477,133.695 C 292.359,108.156 274.422,86.473 251.234,71.75 l -16.472,37.91 c 13.398,9.942 23.75,23.434 29.886,38.953 18.11,45.961 -4.464,97.907 -50.425,116.024 -15.524,6.078 -32.434,7.695 -48.828,4.672 l -16.485,37.933 c 26.574,6.914 54.66,5.246 80.231,-4.769 C 296,276.117 328.832,200.551 302.477,133.695 Z"
+             style="fill:url(#linearGradient562);stroke:none"
+             id="path784" /></g></g></g><g
+       id="g786"
+       transform="matrix(0.06063366,0,0,0.06063366,-25.062444,-0.68743615)"><g
+         id="g788"><g
+           id="g794"><path
+             d="M 213.922,55.586 C 187.348,48.672 159.266,50.344 133.695,60.359 101.59,73.016 75.824,97.91 62.07,129.562 c -13.75,31.653 -14.367,67.469 -1.711,99.579 10.114,25.535 28.051,47.218 51.243,61.941 l 16.468,-37.914 c -13.398,-9.941 -23.746,-23.43 -29.879,-38.941 -8.703,-22.075 -8.281,-46.704 1.172,-68.465 9.457,-21.762 27.168,-38.875 49.242,-47.578 15.524,-6.075 32.438,-7.692 48.833,-4.664 z"
+             style="fill:url(#linearGradient827);stroke:none"
+             id="path802" /></g></g></g></g></svg>
