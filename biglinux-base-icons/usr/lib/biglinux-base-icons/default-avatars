@@ -1,0 +1,51 @@
+#!/usr/bin/env bash
+# Gives each new user a BigLinux avatar, chosen at random, unless AccountsService
+# already holds a picture for it. A user is new when the previous run did not see
+# it; the first run only records the users already there.
+
+state=/var/lib/biglinux-base-icons/users
+icons=/var/lib/AccountsService/icons
+avatars=(/usr/share/plasma/avatars/big*.png)
+[[ -f ${avatars[0]} ]] || exit 0
+
+# Sets the avatar through AccountsService, which login screens and account
+# settings read, unless it already reports a picture.
+give_avatar() {
+    local name=$1 uid=$2 reply path picture
+    reply=$(busctl call org.freedesktop.Accounts /org/freedesktop/Accounts \
+        org.freedesktop.Accounts FindUserById x "$uid") || return
+    # busctl prints the reply's type, a space and the value in quotes.
+    path=${reply:3:-1}
+    reply=$(busctl get-property org.freedesktop.Accounts "$path" org.freedesktop.Accounts.User IconFile) || return
+    [[ -f ${reply:3:-1} ]] && return
+    # SDDM reads the picture from this file, not from AccountsService.
+    picture=$icons/$name
+    [[ -f $picture ]] || cp "${avatars[RANDOM % ${#avatars[@]}]}" "$picture" || return
+    busctl call org.freedesktop.Accounts "$path" org.freedesktop.Accounts.User SetIconFile s "$picture"
+}
+
+declare -A seen
+first_run=1
+if [[ -f $state ]]; then
+    first_run=0
+    while read -r name; do
+        [[ -n $name ]] && seen[$name]=1
+    done <"$state"
+fi
+
+status=0
+users=()
+while IFS=: read -r name _ uid _; do
+    # 65534 is nobody; the accounts below 1000 belong to system services.
+    ((uid >= 1000 && uid != 65534)) || continue
+    # A user whose avatar failed stays out of the list, so the next run retries.
+    if ((first_run)) || [[ -v seen[$name] ]] || give_avatar "$name" "$uid"; then
+        users+=("$name")
+    else
+        status=1
+    fi
+done </etc/passwd
+
+mkdir -p "${state%/*}"
+printf '%s\n' "${users[@]}" >"$state.new" && mv "$state.new" "$state" || status=1
+exit "$status"

@@ -9,6 +9,7 @@ url="https://github.com/biglinux/biglinux-base-icons"
 pkgdesc="Icons and fixes to themes"
 source=("git+https://github.com/biglinux/biglinux-base-icons.git")
 md5sums=(SKIP)
+install=${pkgname}.install
 
 
 package() {

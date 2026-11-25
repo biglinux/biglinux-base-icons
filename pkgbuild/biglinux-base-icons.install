@@ -1,0 +1,8 @@
+# The first run records the users already there; the units assign the avatars.
+post_install() {
+	[ -e /var/lib/biglinux-base-icons/users ] || /usr/lib/biglinux-base-icons/default-avatars
+}
+
+post_upgrade() {
+	post_install
+}

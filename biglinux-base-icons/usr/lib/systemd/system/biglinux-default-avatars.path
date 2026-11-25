@@ -1,0 +1,8 @@
+# useradd and the account settings rewrite /etc/passwd, so a new user gets a
+# picture right away; the service's boot run covers users made offline.
+[Unit]
+Description=Watch for new users to give them a BigLinux avatar
+
+[Path]
+PathChanged=/etc/passwd
+Unit=biglinux-default-avatars.service
